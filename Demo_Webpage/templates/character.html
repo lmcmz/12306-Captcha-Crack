@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="Default">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/feather.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="../static/js/jquery-2.1.0.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/blocs.min.js"></script>
+	<script src="../static/js/lazysizes.min.js" defer></script>
+    <title>Character</title>
+
+   	   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bgc-charcoal d-bloc" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand  ltc-magnolia" href={{url_for('main')}}><img src="../static/img/Artboard.png" alt="logo" /> lmcmz</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href={{url_for('main')}}>12306</a>
+					</li>
+					<li>
+						<a href={{url_for('character')}}>Character</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-8 -->
+<div class="bloc bgc-charcoal d-bloc" id="bloc-8">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-3">
+						<h4 class="mg-md text-center">
+							Image
+						</h4>
+					</div>
+					<div class="col-sm-3">
+						<h4 class="mg-md text-center">
+							Label
+						</h4>
+					</div>
+					<div class="col-sm-3">
+						<h4 class="mg-md text-center">
+							Predict
+						</h4>
+					</div>
+					<div class="col-sm-3">
+						<h4 class="mg-md text-center">
+							Result
+						</h4>
+					</div>
+				</div>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<ul class="list-unstyled">
+				{% for n in range(length) %}
+					<li>
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="../static/img/char/{{n}}.png" class="center-block" width="160" height="60" />
+							</div>
+							<div class="col-sm-3">
+								<h4 class="mg-md text-center">
+								{{label_list[n]}}
+								</h4>
+							</div>
+							<div class="col-sm-3">
+								<h4 class="mg-md text-center">
+									{{predict_list[n]}}
+								</h4>
+							</div>
+							<div class="col-sm-3">
+							    {% if result_list[n] %}
+							    <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzUuOTc5IDM1Ljk3OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUuOTc5IDM1Ljk3OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM4NEZGMDAiIGQ9Ik0yNi44NCw2LjI1MmwtMTQuMDQ2LDE0LjIzTDIuNDY0LDE1LjEybC0xLjk4LDMuODE1Yy0xLjA5NCwyLjEwNi0wLjI3Miw0LjcwMSwxLjgzNiw1Ljc5NCAgIGwxMi4wOTQsNi4yNzdDMTQuNDYsMzEuMDMsMzUuOTc5LDkuMjMyLDM1Ljk3OSw5LjIzMkwzMi45Miw2LjIxMUMzMS4yMyw0LjU0NSwyOC41MDksNC41NjMsMjYuODQsNi4yNTJ6IiBkYXRhLW9yaWdpbmFsPSIjMDEwMDAyIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDEwMDAyIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg=="/width="160" height="60" class="center-block" />
+							    {% else %}
+							    <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzkuNTY3IDM5LjU2NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzkuNTY3IDM5LjU2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRjQ3MDAiIGQ9Ik03LjY1MiwzNS4yMDRjMS42MDIsMS44Myw0LjM4NSwyLjAxMyw2LjIxNSwwLjQxMWw1LjkxNi01LjE4M2w5LjIyNyw4LjA4Nmw3LjY1NC04LjczNSAgIGMxLjYwMi0xLjgzMSwxLjQyLTQuNjE0LTAuNDEyLTYuMjE2bC00LjMxOC0zLjc4M2w3LjYzMy02LjY4N2wtNy42NTQtOC43MzRjLTEuNjA0LTEuODMxLTQuMzg1LTIuMDE0LTYuMjE1LTAuNDEybC01LjkxNCw1LjE4MyAgIGwtOS4yMzEtOC4wODVMMi45MDEsOS43ODNjLTEuNjAyLDEuODMtMS40MTgsNC42MTMsMC40MTIsNi4yMTZsNC4zMTYsMy43ODRMMCwyNi40NjlMNy42NTIsMzUuMjA0eiIgZGF0YS1vcmlnaW5hbD0iIzAxMDAwMiIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI0ZGNEYwMCI+PC9wYXRoPgo8L2c+PC9nPiA8L3N2Zz4=" width="160" height="60" class="center-block"  />
+    							{% endif %}
+							</div>
+						</div>
+					</li>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+					{% endfor %}
+					<li>
+						<div class="row">
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+								Total
+							</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+								Correct
+							</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+								Wrong
+							</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+								Accuracy
+							</h4>
+							</div>
+						</div>
+					</li>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+					<li>
+						<div class="row">
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+							{{total}}
+								</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+							{{correct}}
+								</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+							{{wrong}}
+								</h4>
+							</div>
+							<div class="col-sm-3">
+							<h4 class="mg-md text-center">
+								{{accuracy}}
+								</h4>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-8 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-9 -->
+<div class="bloc built-with-blocs-bloc bgc-charcoal d-bloc" id="bloc-9">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="http://blocsapp.com/" target="_blank"><img src="img/lazyload-ph.png" data-src="../static/img/Artboard.png" class="img-responsive center-block mg-sm lazyload" height="38" width="38" /></a>
+				<p class="text-center">
+					Copyright © lmcmz
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-9 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction"></div>
+<!-- Preloader END -->
+
+</body>
+</html>

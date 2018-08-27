@@ -1,0 +1,11 @@
+numpy==1.14.2
+tensorflow==1.7.0
+requests==2.18.4
+Keras==2.1.5
+opencv_contrib_python==3.4.0.12
+Flask==0.12.2
+Flask_RESTful==0.3.6
+fuzzywuzzy==0.16.0
+Pillow==5.2.0
+protobuf==3.6.1
+model==0.6.0

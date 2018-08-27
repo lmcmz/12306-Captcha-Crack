@@ -1,0 +1,39 @@
+{
+    "text_label": "订书机",
+    "text_label_en": "Stapler",
+    "label": {
+        "0": {
+            "cn": "锦旗",
+            "en": "Banner"
+        },
+        "1": {
+            "cn": "风铃",
+            "en": "Wind Bell"
+        },
+        "2": {
+            "cn": "锦旗",
+            "en": "Banner"
+        },
+        "3": {
+            "cn": "茶盅",
+            "en": "Tea Ceremony"
+        },
+        "4": {
+            "cn": "订书机",
+            "en": "Stapler"
+        },
+        "5": {
+            "cn": "订书机",
+            "en": "Stapler"
+        },
+        "6": {
+            "cn": "锦旗",
+            "en": "Banner"
+        },
+        "7": {
+            "cn": "电线",
+            "en": "Wire"
+        }
+    },
+    "result": true
+}

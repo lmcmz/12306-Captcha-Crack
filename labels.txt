@@ -1,0 +1,80 @@
+茶几 	0	Coffee Table
+雨靴 	1	Rain Boots
+护腕 	2	Bracers
+本子 	3	Book
+锦旗 	4	Banner
+烛台 	5	Candlestick
+海苔 	6	Seaweed
+中国结 	7	Chinese Knot
+龙舟 	8	Dragon Boat
+日历 	9	Calendar
+红枣 	10	Jujube
+药片 	11	Tablets
+高压锅 	12	Pressure Cooker
+锣 	13	Gong
+薯条 	14	French Fries
+调色板 	15	Palette
+路灯 	16	Street Light
+口哨 	17	Whistle
+菠萝 	18	Pineapple
+挂钟 	19	Wall Clock
+冰箱 	20	Fridge
+蜥蜴 	21	Lizard
+电线 	22	Wire
+航母 	23	Aircraft Carrier
+手掌印 	24	Hand Print
+热水袋 	25	Hot Water Bag
+鞭炮 	26	Firecrackers
+茶盅 	27	Tea Ceremony
+海报 	28	Poster
+电子秤 	29	Electronic Scale
+蜡烛 	30	Candles
+珊瑚 	31	Coral
+蚂蚁 	32	Ants
+话梅 	33	Mei Mei
+毛线 	34	Wool
+网球拍 	35	Tennis Racket
+沙拉 	36	Salad
+拖把 	37	Mop
+开瓶器 	38	Bottle Opener
+棉棒 	39	Cotton Swab
+风铃 	40	Wind Bell
+黑板 	41	Chalkboard
+盘子 	42	Plate
+金字塔 	43	Pyramid
+蜜蜂 	44	Bee
+文具盒 	45	Stationery Box
+公交卡 	46	Bus Card
+打字机 	47	Typewriter
+啤酒 	48	Beer
+漏斗 	49	Funnel
+印章 	50	Seal
+铃铛 	51	Bell
+绿豆 	52	Green Beans
+老虎 	53	Tiger
+樱桃 	54	Cherry
+档案袋 	55	Portfolio
+订书机 	56	Stapler
+苍蝇拍 	57	Fly Swatter
+辣椒酱 	58	Chili Sauce
+沙包 	59	Sandbags
+卷尺 	60	Tape Measure
+钟表 	61	Watch
+狮子 	62	Lion
+跑步机 	63	Treadmill
+锅铲 	64	Spatula
+红酒 	65	Red Wine
+牌坊 	66	Archway
+刺绣 	67	Embroidery
+安全帽 	68	Safety Helmet
+红豆 	69	Red Beans
+剪纸 	70	Paper Cutting
+电饭煲 	71	Rice Cooker
+创可贴 	72	Band Aid
+蒸笼 	73	Steamer
+仪表盘 	74	Dash Board
+海鸥 	75	Seagull
+排风机 	76	Ventilator
+双面胶 	77	Double-sided Adhesive
+篮球 	78	Basketball
+耳塞 	79	Earplugs

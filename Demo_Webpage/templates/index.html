@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="Default">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/feather.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="../static/js/jquery-2.1.0.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/blocs.min.js"></script>
+	<script src="../static/js/lazysizes.min.js" defer></script>
+    <title>Home</title>
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bgc-charcoal d-bloc" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand  ltc-magnolia" href={{url_for('main')}}><img src="../static/img/Artboard.png" alt="logo" /> lmcmz</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href={{url_for('main')}}>12306</a>
+					</li>
+						<li>
+						<a href={{url_for('character')}}>Character</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<!--
+<div class="bloc built-with-blocs-bloc bgc-charcoal d-bloc" id="bloc-1">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h2 class="text-center">
+					12306 Captcha Crack
+				</h2>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<!-- bloc-1 END -->
+
+<!-- bloc-2 -->
+<div class="bloc bgc-charcoal d-bloc" id="bloc-2">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="../static/img/demo.png" class="image-resize-mode center-block" height="190" width="293" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
+
+
+<!-- Bloc Group -->
+<!--<div class='bloc-group'>-->
+
+<!-- bloc-3 -->
+
+<!--
+<div class="bloc bgc-charcoal bloc-tile-2 d-bloc" id="bloc-3">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="text-center">
+					<a href={{url_for('main')}} class="btn btn-d btn-rd btn-xl"><span class="feather-icon icon-repeat icon-spacer"></span> Refresh</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+<!-- bloc-3 END -->
+
+<!-- bloc-4 -->
+<!--
+<div class="bloc bgc-charcoal bloc-tile-2 d-bloc" id="bloc-4">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="text-center">
+					<a href={{url_for('main')}} class="btn btn-d btn-rd btn-xl"><span class="feather-icon icon-eye icon-spacer"></span> Crack</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<!-- bloc-4 END -->
+<!--</div>-->
+<!-- Bloc Group END -->
+
+
+<!-- bloc-5 -->
+<div class="bloc bgc-charcoal d-bloc " id="bloc-5">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<img src="../static/img/text.png" class="center-block" width="50" height="28" />
+				<h4 class="mg-md text-center">
+				{{text_label}}
+				</h4>
+				<h4 class="mg-md text-center">
+				{{text_label_en}}
+				</h4>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li>
+						<img src="../static/img/0.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[0]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{ image_label[0]}}
+						</h4>
+					</li>
+					<li>
+						<img src="../static/img/4.png" class="center-block " width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[4]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[4]}}
+						</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li>
+						<img src="../static/img/1.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[1]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[1]}}
+						</h4>
+					</li>
+					<li>
+						<img src="../static/img/5.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[5]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[5]}}
+						</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li>
+						<img src="../static/img/2.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[2]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[2]}}
+						</h4>
+					</li>
+					<li>
+						<img src="../static/img/6.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[6]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[6]}}
+						</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<li>
+						<img src="../static/img/3.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[3]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[3]}}
+						</h4>
+					</li>
+					<li>
+						<img src="../static/img/7.png" class="center-block" width="64" height="64" />
+					</li>
+					<li>
+						<h4 class="mg-md text-center">
+						{{image_label_en[7]}}
+						</h4>
+						<h4 class="mg-md text-center">
+						{{image_label[7]}}
+						</h4>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-5 END -->
+
+<!-- bloc-6 -->
+<div class="bloc bgc-charcoal d-bloc" id="bloc-6">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<h4 class="mg-md text-center">
+					Result
+				</h4><img src="../static/img/result.png" class="center-block" width="293" height="190" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<!-- bloc-7 -->
+<div class="bloc built-with-blocs-bloc bgc-charcoal d-bloc" id="bloc-7">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div class="divider-h">
+							    {% if result %}
+							    <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzUuOTc5IDM1Ljk3OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUuOTc5IDM1Ljk3OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM4NEZGMDAiIGQ9Ik0yNi44NCw2LjI1MmwtMTQuMDQ2LDE0LjIzTDIuNDY0LDE1LjEybC0xLjk4LDMuODE1Yy0xLjA5NCwyLjEwNi0wLjI3Miw0LjcwMSwxLjgzNiw1Ljc5NCAgIGwxMi4wOTQsNi4yNzdDMTQuNDYsMzEuMDMsMzUuOTc5LDkuMjMyLDM1Ljk3OSw5LjIzMkwzMi45Miw2LjIxMUMzMS4yMyw0LjU0NSwyOC41MDksNC41NjMsMjYuODQsNi4yNTJ6IiBkYXRhLW9yaWdpbmFsPSIjMDEwMDAyIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDEwMDAyIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg=="/width="160" height="60" class="center-block" />
+							    {% else %}
+							    <img src="data:image/svg+xml;base64,
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzkuNTY3IDM5LjU2NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzkuNTY3IDM5LjU2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRjQ3MDAiIGQ9Ik03LjY1MiwzNS4yMDRjMS42MDIsMS44Myw0LjM4NSwyLjAxMyw2LjIxNSwwLjQxMWw1LjkxNi01LjE4M2w5LjIyNyw4LjA4Nmw3LjY1NC04LjczNSAgIGMxLjYwMi0xLjgzMSwxLjQyLTQuNjE0LTAuNDEyLTYuMjE2bC00LjMxOC0zLjc4M2w3LjYzMy02LjY4N2wtNy42NTQtOC43MzRjLTEuNjA0LTEuODMxLTQuMzg1LTIuMDE0LTYuMjE1LTAuNDEybC01LjkxNCw1LjE4MyAgIGwtOS4yMzEtOC4wODVMMi45MDEsOS43ODNjLTEuNjAyLDEuODMtMS40MTgsNC42MTMsMC40MTIsNi4yMTZsNC4zMTYsMy43ODRMMCwyNi40NjlMNy42NTIsMzUuMjA0eiIgZGF0YS1vcmlnaW5hbD0iIzAxMDAwMiIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI0ZGNEYwMCI+PC9wYXRoPgo8L2c+PC9nPiA8L3N2Zz4=" width="160" height="60" class="center-block"  />
+    							{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-7 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-8 -->
+<div class="bloc built-with-blocs-bloc bgc-charcoal d-bloc" id="bloc-8">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="http://blocsapp.com/" target="_blank"><img src="../static/img/Artboard.png" class="img-responsive center-block mg-sm lazyload" height="38" width="38" /></a>
+				<p class="text-center">
+					Copyright © lmcmz
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-8 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction"></div>
+<!-- Preloader END -->
+
+</body>
+</html>
